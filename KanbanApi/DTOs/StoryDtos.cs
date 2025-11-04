@@ -15,7 +15,7 @@ public record StoryLabelDto(int Id, string Name, string Color);
 
 public record StoryAttachmentDto(int Id, string FileName, string OriginalFileName, string ContentType, long Size, DateTime UploadedAt, string Url);
 
-public record StoryTaskDto(int Id, string Title, string? Description, TaskStatus Status, int AttachmentCount);
+public record StoryTaskDto(int Id, string Title, string? Description, KanbanApi.Models.TaskStatus Status, int AttachmentCount);
 
 public record StoryCommentSummaryDto(int Id, string Content, DateTime CreatedAt, string AuthorName, int AttachmentCount);
 
