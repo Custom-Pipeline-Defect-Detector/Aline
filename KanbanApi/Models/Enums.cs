@@ -23,7 +23,7 @@ public enum StoryPriority
     Critical
 }
 
-public enum WorkTaskStatus
+public enum TaskStatus
 {
     Todo,
     Doing,

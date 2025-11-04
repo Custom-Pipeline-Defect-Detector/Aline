@@ -5,7 +5,7 @@ public class WorkTask
     public int Id { get; set; }
     public string Title { get; set; } = string.Empty;
     public string? Description { get; set; }
-    public WorkTaskStatus Status { get; set; } = WorkTaskStatus.Todo;
+    public TaskStatus Status { get; set; } = TaskStatus.Todo;
 
     public int StoryId { get; set; }
     public Story? Story { get; set; }
