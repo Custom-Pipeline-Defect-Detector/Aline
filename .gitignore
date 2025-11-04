@@ -1,0 +1,21 @@
+# Build artifacts
+bin/
+obj/
+
+# User-specific files
+*.user
+*.swp
+*.suo
+*.userosscache
+*.sln.docstates
+
+# IDE directories
+.vs/
+.idea/
+.vscode/
+
+# Dotnet
+*.db
+
+# Uploads directory runtime content
+KanbanApi/uploads/
